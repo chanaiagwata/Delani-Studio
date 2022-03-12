@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headerContainer{
+    background-image:url("../images/foot.jpg");
+    height: 100vh;
+    position: relative;
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+}
+#header{
+margin-top: 370px;
+}
