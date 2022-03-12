@@ -36,3 +36,11 @@ margin-top: 370px;
     font-weight: 800;
 }
 /* style portfolio section */
+/* style form */
+.form{
+    background-image: url("../images/c_image.jpg");
+    background-size: cover;
+    height: 50vh;
+    margin-top: 50px;
+
+}
