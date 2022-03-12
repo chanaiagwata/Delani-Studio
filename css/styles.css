@@ -42,5 +42,7 @@ margin-top: 370px;
     background-size: cover;
     height: 50vh;
     margin-top: 50px;
-
+}
+form{
+    background-color: none;
 }
