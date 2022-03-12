@@ -3,14 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* style header section */
 .headerContainer{
     background-image:url("../images/foot.jpg");
-    height: 100vh;
+    height: 80vh;
     position: relative;
-    /* background-position: center;
-    background-repeat: no-repeat; */
     background-size: cover;
 }
 #header{
 margin-top: 370px;
 }
+/* style about section */
+.about{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin:50px;
+}
+.about h2{
+    font-weight: 800;
+}
+.service{
+    background-image: url("../images/s_image.jpg");
+    background-size: cover;
+    height: 40vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 130px;
+}
+.service h2{
+    font-weight: 800;
+}
+/* style portfolio section */
