@@ -35,6 +35,17 @@ margin-top: 370px;
 .service h2{
     font-weight: 800;
 }
+/* What we do */
+
+.ourWork3{
+    display: none;
+}
+.ourWork2{
+display: none;
+}
+.ourWork1{
+display: none;
+} 
 /* style portfolio section */
 /* style form */
 .form{
@@ -43,7 +54,7 @@ margin-top: 370px;
     height: 50vh;
     margin-top: 50px;
 }
-/* style button */
+/*style button*/
 #btn{
     padding: 6px;
     border-radius: 10px;

@@ -15,7 +15,7 @@ function formValidate(){
         alert("Leave a message");
     }
     else{
-        alert("Success!");
+        alert("Success!Message received");
     }
 }
 function clearing(){
@@ -26,4 +26,16 @@ submit.addEventListener("click", function(e){
     e.preventDefault();
     formValidate();
     clearing();
+})
+
+$(document).ready(function(){
+    $(".image1").click(function(){
+    $(".ourWork1").toggle();
+    })
+    $(".image2").click(function(){
+        $(".ourWork2").toggle();
+    })
+    $(".image3").click(function(){
+    $(".ourWork3").toggle();
+    })
 })
