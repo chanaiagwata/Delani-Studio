@@ -1,28 +1,33 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /* style header section */
-.headerContainer{
-    background-image:url("../images/foot.jpg");
+.headerContainer {
+    background-image: url("../images/foot.jpg");
     height: 80vh;
     position: relative;
     background-size: cover;
 }
-#header{
-margin-top: 370px;
+
+#header {
+    margin-top: 370px;
 }
+
 /* style about section */
-.about{
+.about {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    margin:50px;
+    margin: 50px;
 }
-.about h2{
+
+.about h2 {
     font-weight: 800;
 }
-.service{
+
+.service {
     background-image: url("../images/s_image.jpg");
     background-size: cover;
     height: 40vh;
@@ -32,24 +37,29 @@ margin-top: 370px;
     font-weight: bold;
     padding-top: 130px;
 }
-.service h2{
+
+.service h2 {
     font-weight: 800;
 }
+
 /* What we do */
 
-.ourWork3{
+.ourWork3 {
     display: none;
 }
-.ourWork2{
-display: none;
+
+.ourWork2 {
+    display: none;
 }
-.ourWork1{
-display: none;
-} 
+
+.ourWork1 {
+    display: none;
+}
+
 /* style portfolio section */
 /* style form */
 
-.form{
+.form {
     background-image: url("../images/c_image.jpg");
     background-size: cover;
     height: 50vh;
@@ -58,7 +68,7 @@ display: none;
 }
 
 /*style button*/
-#btn{
+#btn {
     padding: 6px;
     border-radius: 10px;
     width: 10vw;
@@ -66,43 +76,34 @@ display: none;
     color: black;
     font-weight: bold;
 }
-#nameInput{
+
+#nameInput {
     background: transparent;
     color: #f1f1f1;
 }
-#emailInput{
+
+#emailInput {
     background: transparent;
 }
-#textInput{
-    background: transparent;  
+
+#textInput {
+    background: transparent;
 }
-/* ::-webkit-input-placeholder{
-    color:white;
-}
-:-ms-input-placeholder{
-    color:white;
-}
-::-moz-placeholder{
-    color: white;
-    opacity: 1;
-}
-:-moz-placeholder{
-    color:red;
-    opacity: 1;
-} */
-.submit{
+
+.submit {
     display: flex;
     margin-left: 25vw;
 }
+
 /* portfolio styling */
-.project-heading{
+.project-heading {
     display: none;
     background: #f1f1f1;
     height: 100%;
     width: 100%;
     position: absolute;
     left: 50%;
-    top:50%;
+    top: 50%;
     z-index: 1;
     padding-right: 30%;
     padding-top: 25px;

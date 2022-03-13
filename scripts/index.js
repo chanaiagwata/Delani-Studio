@@ -4,25 +4,23 @@ var userMessage = document.getElementById("textInput");
 var submit = document.getElementById("btn");
 
 
-function formValidate(){
-    if(userName.value==""){
+function formValidate() {
+    if (userName.value == "") {
         alert("Enter your name");
-    }
-    else if(userEmail.value=="" || null){
+    } else if (userEmail.value == "" || null) {
         alert("Enter your email");
-    }
-    else if(userMessage.value==""){
+    } else if (userMessage.value == "") {
         alert("Leave a message");
-    }
-    else{
+    } else {
         alert("Success!Message received");
     }
 }
-function clearing(){
+
+function clearing() {
     document.getElementById("formInput").reset();
 }
 
-submit.addEventListener("click", function(e){
+submit.addEventListener("click", function (e) {
     e.preventDefault();
     formValidate();
     clearing();
