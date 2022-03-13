@@ -48,18 +48,48 @@ display: none;
 } 
 /* style portfolio section */
 /* style form */
+
 .form{
     background-image: url("../images/c_image.jpg");
     background-size: cover;
     height: 50vh;
     margin-top: 50px;
+    background-color: transparent;
 }
+
 /*style button*/
 #btn{
     padding: 6px;
     border-radius: 10px;
     width: 10vw;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
 }
+#nameInput{
+    background: transparent;
+    color: #f1f1f1;
+}
+#emailInput{
+    background: transparent;
+}
+#textInput{
+    background: transparent;  
+}
+/* ::-webkit-input-placeholder{
+    color:white;
+}
+:-ms-input-placeholder{
+    color:white;
+}
+::-moz-placeholder{
+    color: white;
+    opacity: 1;
+}
+:-moz-placeholder{
+    color:red;
+    opacity: 1;
+} */
 .submit{
     display: flex;
     margin-left: 25vw;
