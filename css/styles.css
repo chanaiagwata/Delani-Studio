@@ -43,3 +43,13 @@ margin-top: 370px;
     height: 50vh;
     margin-top: 50px;
 }
+/* style button */
+#btn{
+    padding: 6px;
+    border-radius: 10px;
+    width: 10vw;
+}
+.submit{
+    display: flex;
+    margin-left: 25vw;
+}
